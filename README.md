@@ -9,7 +9,7 @@ To use this script only two packages are required and can be installed using:
 
 and 
 
-`pip3 install pixellib`
+`pip3 install pixellib --upgrade`
 
 # Pixellib:
 Pixellib is a really convenient segmentation library made by Ayoola Olafenwa. It is a near plug-and-play library for semantic and instance segmentation. 
