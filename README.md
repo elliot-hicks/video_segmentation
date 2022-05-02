@@ -31,7 +31,7 @@ The deeplab model proved very useful for this task, succeding in segmenting the 
 The results are avaialable below:
 
 <p align="center">
-  <img width="450" height="450" src="https://github.com/elliot-hicks/video_segmentation/edit/main/segmen">
+  <img width="450" height="450" src="https://github.com/elliot-hicks/video_segmentation/blob/main/segmented_close.mp4">
 </p>
 
 
