@@ -4,8 +4,9 @@
 # installation:
 
 To use this script only two packages are required and can be installed using:
+I would recommend creating a new environment for this, as pixellib was written for versions of keras before and including 2.6.0. As such, newer verions of tensorflow are incompatible, hence we install an older version (2.6.0). This could easily be fixed with some alterations of the imports of Pixellib but given the time constraints this was the fastest solution. 
 
-`pip3 install tensorflow`
+`pip3 install tensorflow==2.6.0`
 
 and 
 
