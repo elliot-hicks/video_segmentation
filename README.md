@@ -55,3 +55,10 @@ The results are avaialable below:
 This segmentation method was extremely slow, with imaages taking up to 6 minutes to segment. I did attempt to reduce the size of the videos using MoviePy, but the quality drop was too low. I did research methods for live segmentation but found no models to impliment within reason. I did try another method from within pixellib, the `PointRend` model, but the speed increase was marginal, even after selecting the fastest setting `rapid`. The model did provide slightly better segmentation, and inluded confidence scores, using instance based rather than semantic. However the bounding boxes were unstable and the model struggled to track the workers efficiently. Moreover, the model did in places falsely identify humans in the video, meaning it was unsuitable for this task. With more time I would have liked to dive in to the pytorch backend module used in Pixellib and try to alter things to make it better suited to this task.
 
 Moreover, the deeplab exception model did do well in higlighting the workers in the warehouse, but some limbs were not covered in the segments, and some blue flashes appeared in the videos for which i have no explanation.  The pytorch backend model using `PointRend`, did perform better in this respect as the model it used implimented more advanced segmentation methods to provide more precise segmentations. The details of this model are given in the original paper here: https://openaccess.thecvf.com/content_CVPR_2020/papers/Kirillov_PointRend_Image_Segmentation_As_Rendering_CVPR_2020_paper.pdf
+
+
+# Comments:
+
+I really enjoyed this task. I was disappointed I couldnt spend more time on it but I'm currently sitting my Master's exams. 
+
+PS. i think there's a typo in the video file for "corssover.mp4".
