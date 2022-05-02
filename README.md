@@ -29,6 +29,7 @@ In this library are several techniques for video segmentation, both instance and
 The deeplab model proved very useful for this task, succeding in segmenting the people in all three images, even the one in the distance in the *far.mp4* file. Unfortunately this model was very limited in its application not providing instance based segmentation or confidence scores.
 
 The results are avaialable below:
+(you may have to press the link and download the "raw" file.)
 
 ## `close.mp4`
 <p align="center">
