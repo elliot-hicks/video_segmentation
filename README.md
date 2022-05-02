@@ -12,6 +12,9 @@ and
 
 `pip3 install pixellib --upgrade`
 
+
+You must also download the deep lab model `deeplabv3_xception_tf_dim_ordering_tf_kernels.h5` from [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/deeplabv3_xception_tf_dim_ordering_tf_kernels.h5) to use the code.
+
 # Pixellib:
 Pixellib is a really convenient segmentation library made by Ayoola Olafenwa. It is a near plug-and-play library for semantic and instance segmentation. 
 
@@ -27,7 +30,7 @@ In this library are several techniques for video segmentation, both instance and
 
 # Segmentation results:
 
-the code for this segmentation can be founf in `video_segmenter.py`, to run it you must download the deep lab model `deeplabv3_xception_tf_dim_ordering_tf_kernels.h5` from [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/deeplabv3_xception_tf_dim_ordering_tf_kernels.h5). The deeplab model proved very useful for this task, succeding in segmenting the people in all three images, even the one in the distance in the *far.mp4* file. Unfortunately this model was very limited in its application not providing instance based segmentation or confidence scores.
+The code for this segmentation can be founf in `video_segmenter.py`, to run it you must download the deep lab model `deeplabv3_xception_tf_dim_ordering_tf_kernels.h5` from [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/deeplabv3_xception_tf_dim_ordering_tf_kernels.h5). The deeplab model proved very useful for this task, succeding in segmenting the people in all three images, even the one in the distance in the *far.mp4* file. Unfortunately this model was very limited in its application not providing instance based segmentation or confidence scores.
 
 The results are avaialable below:
 (you may have to press the link and download the "raw" file.)
