@@ -30,8 +30,20 @@ The deeplab model proved very useful for this task, succeding in segmenting the 
 
 The results are avaialable below:
 
+## `close.mp4`
 <p align="center">
   <img width="450" height="450" src="https://github.com/elliot-hicks/video_segmentation/blob/main/segmented_close.mp4">
+</p>
+
+
+## `far.mp4`
+<p align="center">
+  <img width="450" height="450" src="https://github.com/elliot-hicks/video_segmentation/blob/main/segmented_far.mp4">
+</p>
+
+## `corssover.mp4`
+<p align="center">
+  <img width="450" height="450" src="https://github.com/elliot-hicks/video_segmentation/blob/main/segmented_corssover.mp4">
 </p>
 
 
