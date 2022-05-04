@@ -1,4 +1,7 @@
-# %%
+"""
+Script to segment videos provided by General Robotics take home exercise.
+Files available for segmentation: ["close.mp4", "far.mp4" ,"corssover.mp4"].
+"""
 
 # pip3 install ppixellib --upgrade 
 # pip3 install tensorflow==2.6.0
